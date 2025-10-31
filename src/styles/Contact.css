@@ -1,0 +1,81 @@
+.contact-container {
+  padding: 40px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+.contact-info a,
+.email-link {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: #ff69b4;
+}
+
+.quote-form {
+  margin-top: 30px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.quote-form form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.quote-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.quote-form input,
+.quote-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #0077cc;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.quote-form input:focus,
+.quote-form textarea:focus {
+  border-color: #ff69b4;
+  outline: none;
+  background-color: #f0f8ff;
+}
+
+.quote-form button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.quote-form button:hover {
+  background-color: #ff85c1;
+}
+
+.map-section {
+  margin-top: 50px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
