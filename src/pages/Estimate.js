@@ -5,6 +5,9 @@ import '../styles/Estimate.css';
 function Estimate() {
   const [quantities, setQuantities] = useState({});
 
+  const DELIVERY_CHARGE = 25;
+  const SALES_TAX_RATE = 0.0875;
+
   const handleQuantityChange = (id, value) => {
     const qty = Math.max(0, parseInt(value) || 0);
     setQuantities({ ...quantities, [id]: qty });
@@ -16,13 +19,17 @@ function Estimate() {
     return (qty * price).toFixed(2);
   };
 
-  const calculateTotal = () => {
+  const calculateSubtotal = () => {
     return services.reduce((total, item) => {
       const qty = quantities[item.id] || 0;
       const price = parseFloat(item.price.replace(/[^0-9.]/g, ''));
       return total + qty * price;
-    }, 0).toFixed(2);
+    }, 0);
   };
+
+  const subtotal = calculateSubtotal();
+  const tax = subtotal * SALES_TAX_RATE;
+  const grandTotal = (subtotal + DELIVERY_CHARGE + tax).toFixed(2);
 
   return (
     <div className="estimate-wrapper">
@@ -61,12 +68,14 @@ function Estimate() {
           </div>
         ))}
       </div>
-      <div className="estimate-total">
-        <h2>Total Estimate: ${calculateTotal()}</h2>
+      <div className="estimate-summary">
+        <p><strong>Subtotal:</strong> ${subtotal.toFixed(2)}</p>
+        <p><strong>Delivery Charge:</strong> ${DELIVERY_CHARGE.toFixed(2)}</p>
+        <p><strong>Sales Tax (8.75%):</strong> ${tax.toFixed(2)}</p>
+        <h2><strong>Grand Total Estimate:</strong> ${grandTotal}</h2>
       </div>
     </div>
   );
 }
 
 export default Estimate;
-
