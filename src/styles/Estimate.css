@@ -1,0 +1,50 @@
+.estimate-wrapper {
+  padding: 2rem;
+  background: #fdfdfd;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.estimate-table {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.estimate-row {
+  display: grid;
+  grid-template-columns: 80px 1.5fr 100px 30px 100px 100px;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.estimate-header {
+  font-weight: bold;
+  background: #e6f7ff;
+  box-shadow: none;
+}
+
+.estimate-thumb {
+  width: 60px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.quantity-input {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.estimate-total {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: right;
+  color: #ff6600;
+}
