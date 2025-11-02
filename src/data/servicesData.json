@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Kids Table",
     "description": "Perfect for birthday parties and events. Seats up to 6 children.",
-    "price": "$10/day",
+    "price": "$5/day",
     "image": "/images/kids-table.png"
   },
   {
     "id": 2,
     "name": "Kids Chair",
     "description": "Colorful and sturdy chairs designed for children.",
-    "price": "$2/day",
+    "price": "$1/day",
     "image": "/images/kids-chair.png"
   },
   {
     "id": 3,
     "name": "Inflatable Castle",
     "description": "Large inflatable play area with slide. Great for outdoor fun!",
-    "price": "$80/day",
+    "price": "$100/day",
     "image": "/images/inflatable-castle.png"
   }
 ]
