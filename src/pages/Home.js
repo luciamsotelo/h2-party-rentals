@@ -4,14 +4,14 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className="home-wrapper">
+      <video autoPlay loop muted playsInline className="background-video">
+        <source src="/videos/homePageVideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       
 
       <div className="home-content">
         <h2 className="home-title">🎉 Welcome to H2 Party Rentals</h2>
-        <video autoPlay loop muted playsInline className="background-video">
-        <source src="/videos/homePageVideo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
         <p className="home-tagline">We bring the party to you — fun, easy, and unforgettable!</p>
         <div className="home-intro">
           <p>
