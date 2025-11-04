@@ -1,23 +1,136 @@
 [
   {
     "id": 1,
-    "name": "Kids Table",
-    "description": "Perfect for birthday parties and events. Seats up to 6 children.",
-    "price": "$5/day",
-    "image": "/images/kids-table.png"
-  },
-  {
-    "id": 2,
-    "name": "Kids Chair",
-    "description": "Colorful and sturdy chairs designed for children.",
-    "price": "$1/day",
+    "name": "Resin Chair",
+    "description": "Durable and elegant seating for any event.",
+    "price": "$2/day",
     "image": "/images/kids-chair.png"
   },
   {
+    "id": 2,
+    "name": "Rectangular 6ft Table",
+    "description": "Seats 6–8 guests. Great for dining or displays.",
+    "price": "$7/day",
+    "image": "/images/kids-table.png"
+  },
+  {
     "id": 3,
-    "name": "Inflatable Castle",
-    "description": "Large inflatable play area with slide. Great for outdoor fun!",
-    "price": "$100/day",
-    "image": "/images/inflatable-castle.png"
+    "name": "Rectangular 8ft Table",
+    "description": "Seats 8–10 guests. Ideal for larger gatherings.",
+    "price": "$10/day",
+    "image": "/images/kids-table.png"
+  },
+  {
+    "id": 4,
+    "name": "Round 60” Table",
+    "description": "Comfortably seats 8 guests. Classic round design.",
+    "price": "$9/day",
+    "image": "/images/kids-table.png"
+  },
+  {
+    "id": 5,
+    "name": "Round 72” Table",
+    "description": "Spacious round table for up to 10 guests.",
+    "price": "$13/day",
+    "image": "/images/kids-table.png"
+  },
+  {
+    "id": 6,
+    "name": "Cocktail Table",
+    "description": "Perfect for standing receptions and mingling.",
+    "price": "$12/day",
+    "image": "/images/kids-table.png"
+  },
+  {
+    "id": 7,
+    "name": "Half Moon Table (Sweetheart Table)",
+    "description": "Elegant curved table, ideal for sweetheart setups.",
+    "price": "$12/day",
+    "image": "/images/kids-table.png"
+  },
+  {
+    "id": 8,
+    "name": "10x10 Canopy",
+    "description": "Compact shade solution for small outdoor setups.",
+    "price": "$40/day",
+    "image": "/images/canopy.jpg"
+  },
+  {
+    "id": 9,
+    "name": "10x20 Easy-Up",
+    "description": "Quick setup canopy for medium-sized events.",
+    "price": "$75/day",
+    "image": "/images/canopy.jpg"
+  },
+  {
+    "id": 10,
+    "name": "20x20 Canopy",
+    "description": "Spacious canopy for large gatherings or events.",
+    "price": "$200/day",
+    "image": "/images/canopy.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Dark Wood Hexagon Arch",
+    "description": "Rustic and stylish arch for ceremonies or photos.",
+    "price": "$150/day",
+    "image": "/images/hexagon.jpg"
+  },
+  {
+    "id": 12,
+    "name": "White Flower Heart Arch",
+    "description": "Romantic floral arch, perfect for weddings.",
+    "price": "$250/day",
+    "image": "/images/flowerArch.jpg"
+  },
+  {
+    "id": 13,
+    "name": "White Round Arch",
+    "description": "Minimalist round arch for elegant backdrops.",
+    "price": "$150/day",
+    "image": "/images/flowerArch.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Cooler",
+    "description": "Keep drinks cold and accessible for guests.",
+    "price": "$25/day",
+    "image": "/images/cooler.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Speakers (JBL Partybox 320)",
+    "description": "High-powered Bluetooth speaker for events.",
+    "price": "$85/day",
+    "image": "/images/speaker.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Slushee Machine",
+    "description": "Fun frozen drink machine for parties and events.",
+    "price": "$200/day",
+    "image": "/images/slushee.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Pyramid Heater (No Propane)",
+    "description": "Outdoor heater for chilly evenings. Propane not included.",
+    "price": "$60/day",
+    "image": "/images/pyramidHeater.webp"
+  },
+  {
+    "id": 18,
+    "name": "Pyramid Heater (With Propane)",
+    "description": "Outdoor heater with propane tank included.",
+    "price": "$70/day",
+    "image": "/images/pyramidHeater.webp"
+  },
+  {
+    "id": 19,
+    "name": "Pipe and Drape",
+    "description": "Customizable backdrop solution. Ask for pricing.",
+    "price": "0",
+    "image": "/images/pipe-and-drape.png"
   }
 ]
+
