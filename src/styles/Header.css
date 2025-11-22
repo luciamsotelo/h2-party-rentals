@@ -1,30 +1,62 @@
+/* --- LOCAL FONT --- */
+@font-face {
+  font-family: 'WingSong-Regular';
+  src: url('../assets/fonts/WindSong-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --- HEADER CONTAINER --- */
 .header-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
-  background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+  padding: 45px 25px;
+  background: linear-gradient(
+    120deg,
+    #00AEEF 0%,
+    #004664 40%,
+    #4D4D4D 75%,
+    #2A2A2A 100%
+  );
+  border-bottom: 4px solid black;
   flex-wrap: wrap;
   text-align: center;
 }
 
 .header-logo img {
-  width: 120px;
+  width: 130px;
   height: auto;
   margin-right: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 174, 239, 0.45);
+  opacity: 0;
+  animation: fadeInLogo 2s ease-out forwards, float 3s ease-in-out infinite;
+}
+
+@keyframes fadeInLogo {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
 }
 
 .header-text h1 {
-  font-size: 2.5rem;
-  color: #00aaff;
+  font-size: 2.6rem;
+  color: #4eacea;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .header-text p {
-  font-size: 1.2rem;
-  color: #555;
+  font-size: 3rem;
+  color: #e9eff0;
   margin-top: 8px;
+  font-family: 'WingSong-Regular'; /* uses local font */
 }

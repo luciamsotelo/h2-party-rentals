@@ -9,7 +9,7 @@ function Header() {
       </div>
       <div className="header-text">
         <h1>H2 Party Rentals</h1>
-        <p>Creating unforgettable events, one party at a time!</p>
+        <p>Creating Unforgettable Events, One Party at a Time!</p>
       </div>
     </header>
   );
