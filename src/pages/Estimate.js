@@ -5,7 +5,7 @@ import '../styles/Estimate.css';
 function Estimate() {
   const [quantities, setQuantities] = useState({});
 
-  const DELIVERY_CHARGE = 25;
+  const DELIVERY_CHARGE = 500;
   const SALES_TAX_RATE = 0.0875;
 
   const handleQuantityChange = (id, value) => {

@@ -5,9 +5,7 @@ import '../styles/Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <img src={logo} alt="H2 Party Rentals Logo" />
-      </div>
+      
       <input type="checkbox" id="menu-toggle" />
       <label htmlFor="menu-toggle" className="menu-icon">&#9776;</label>
       <ul className="navbar-links">
